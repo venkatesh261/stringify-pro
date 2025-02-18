@@ -1,0 +1,50 @@
+{
+  "name": "string-utils-pro",
+  "version": "1.0.0",
+  "description": "Advanced string manipulation library with TypeScript support",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "prepublishOnly": "npm run build",
+    "clean": "rimraf dist",
+    "prepare": "npm run build",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "string",
+    "utilities",
+    "typescript",
+    "text-manipulation",
+    "string-utils"
+  ],
+  "author": "venkatesh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/string-utils-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/string-utils-pro/issues"
+  },
+  "homepage": "https://github.com/yourusername/string-utils-pro#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.17.19",
+    "@typescript-eslint/eslint-plugin": "^7.1.0",
+    "@typescript-eslint/parser": "^7.1.0",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "rimraf": "^5.0.5",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.7.3"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ]
+}
