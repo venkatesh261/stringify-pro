@@ -1,5 +1,5 @@
 {
-  "name": "string-utils-pro",
+  "name": "stringify-pro",
   "version": "1.0.0",
   "description": "Advanced string manipulation library with TypeScript support",
   "main": "dist/index.js",
@@ -24,12 +24,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/string-utils-pro.git"
+    "url": "git+https://github.com/venkatesh261/stringify-pro.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/string-utils-pro/issues"
+    "url": "https://github.com/venkatesh261/stringify-pro/issues"
   },
-  "homepage": "https://github.com/yourusername/string-utils-pro#readme",
+  "homepage": "https://github.com/venkatesh261/stringify-pro#readme",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^20.17.19",
